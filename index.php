@@ -9,6 +9,7 @@
 <div class="container">
     <?php include 'templates/navbar.php'; ?>
     <?php include 'templates/main-slide.php'; ?>
+    <?php include 'templates/block.php'; ?>
 </div>
     <!-- Scripts -->
     <?php include 'includes/scripts.php' ?>
