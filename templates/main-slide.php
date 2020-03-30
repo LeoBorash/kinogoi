@@ -1,6 +1,5 @@
 <div class="swiper-container">
   <div class="swiper-wrapper">
-  <p>HEllo WOrld</p>
     <?php
     $query = $conn->query("SELECT * FROM news_ban");
     while ($row = mysqli_fetch_assoc($query)) { ?>
