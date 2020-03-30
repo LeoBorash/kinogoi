@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-6">
-        <p>Hello</p>
+        <p>Hello Leo</p>
     </div>
     <div class="col-6">
-        <p>wordld</p>
+        <p>Hello Kama</p>
     </div>
 </div>
