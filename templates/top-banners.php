@@ -4,7 +4,7 @@
     $query = $conn->query("SELECT * FROM news_ban");
     while ($row = mysqli_fetch_assoc($query)) { ?>
       <div class="swiper-slide">
-        <img class="img-thumbnail"src="/<?=$row['news_ban_img']?>">
+        <img class="img-thumbnail top-banner"src="/<?=$row['news_ban_img']?>">
       </div>
     <?php }
     ?>
