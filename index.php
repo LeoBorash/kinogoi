@@ -7,9 +7,7 @@
 </head>
 <body>
 <div class="container">
-    <?php include 'templates/navbar.php'; ?>
-    <?php include 'templates/main-slide.php'; ?>
-    <?php include 'templates/block.php'; ?>
+    <?php include 'templates/main.php'; ?>
 </div>
     <!-- Scripts -->
     <?php include 'includes/scripts.php' ?>

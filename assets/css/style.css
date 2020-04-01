@@ -1,11 +1,14 @@
 body{
-    max-width: 500px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 /* ================  SWIPE MOBILE START  ================= */
 .swiper-container {
   width: 100%;
   height: 100%;
-
 }
 .swiper-slide {
   text-align: center;
@@ -25,4 +28,21 @@ body{
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+
+/* ================  NEWS START  ================= */
+
+.news__cat{
+  position: absolute;
+  color: white;
+  padding: 1px 10px;
+  background-color: #00b0a6;
+}
+@media only screen and (max-width: 400px) {
+  .news__cat{
+    font-size: 12px;
+  }
+}
+.news__img{
+  max-width: 100%;
 }
